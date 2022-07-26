@@ -7,7 +7,7 @@ import {
   NavBtn,
   NavBtnLink,
 } from './NavbarElements';
-import Logo from "../../../admin/components/ll.jpg"
+import Logo from "../../../admin/image/ll.jpg"
 
 
 const Navbar = () => {
@@ -38,9 +38,10 @@ const Navbar = () => {
           <NavLink to='/contact-us' activeStyle>
             Contact Us
           </NavLink>  
-          <NavLink to='/Admin' activeStyle>
+          <NavLink to='/Admin' >
             Admin
-          </NavLink> 
+          </NavLink>
+
           {/* Second Nav */}
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>

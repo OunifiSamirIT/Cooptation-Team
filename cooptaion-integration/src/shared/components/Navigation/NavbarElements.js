@@ -6,13 +6,15 @@ export const Nav = styled.nav`
   background: #FFF;
   height: 80px;
   display: flex;
-  
-   
+  width: 100%;
+  //  border: 1px solid #111;
   justify-content: space-between;
-  padding: 0.5rem calc((100vw - 1000px) / 2);
+  // padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
   /* Third Nav */
   /* justify-content: flex-start; */
+  
+
 `;
 
 
